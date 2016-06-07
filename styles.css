@@ -1,0 +1,99 @@
+body {
+	color: #222;
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+	margin: 1em; /****************/
+}
+li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.logo {
+	display: block;
+	margin: 0 auto;
+	padding-top: 110px;
+}
+.apps-icon {
+	margin-bottom: -0.25em;
+}
+input[type=text] {
+	background: url(img/microphone-icon.png) no-repeat 98% 50% scroll;
+	border: solid 1px #E4E4E4;
+	display: block;
+	font-size: 1.2em;;
+	margin: 40px auto;
+	padding: 5px;
+	width: 600px;
+	height: 35px;
+	outline: none;
+}
+input[type=text]:focus {
+	border-color: #4285F4;
+}
+input[type=submit] {
+	color: #757575;
+	background-color: #F4F4F4;
+	border: 1px solid #FFF;
+	border-radius: 2px;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0.008em;
+	padding: 10px 15px;
+	outline: none;
+}
+input[type=submit]:hover {
+	color: #000;
+	border: 1px solid #E4E4E4;
+}
+a:link {
+	text-decoration: none;
+	color: #66666E;
+}
+a.sign-in {
+	background-color: #4386F9;
+	border-radius: 2px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 0.7em;
+}
+.container {
+	margin-top: 10px;
+	min-width: 990px;
+	position: relative;
+}
+.top {
+	float: right;
+	margin-bottom: 20px;
+}
+.search{
+	width:  650px;
+	margin: 0 auto;
+	clear: both;
+	min-height: 410px;
+}
+.buttons {
+	text-align: center;
+}
+.footer {
+	background-color: #F2F2F2;
+	border-top: solid 1px #E4E4E4;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.footer li {
+	padding: 0 10px;
+}
+.footer-grp1 {
+	float: left;
+	margin-left: 0;
+}
+.footer-grp2 {
+	float: right;
+	margin-right: 25px;
+}
